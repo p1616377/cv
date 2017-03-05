@@ -1,10 +1,11 @@
 function valider()
  {
-	if (document.formulaire.nom.value == "")
+	var Nom = $("#nom").val();
+	var Courriel = $("#courriel").val();
+	var Telephone = $("#telephone").val();
+
+	if ( Nom == "" )
      	{
-         window.alert("Veuillez entrer votre Nom !");
-         valid = false;
-	 }
-	else {valid = true;}
-	return valid;
+         window.alert ( "La rubrique réservéé au NOM est vide, Veuillez saisir votre Nom !" );
+	}
  } 
