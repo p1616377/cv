@@ -34,12 +34,5 @@ function validation()
 			{
 			 window.alert("Le Numéro de téléphone saisie est incorrect, Veuillez saisir un Numéro de Téléphone correct !");
 			}
-		else
-			{
-			if (!$("#courriel").val().type != number)
-				{
-				 window.alert("Le Numéro de téléphone saisie contient des caractères autre que des chiffres, Veuillez saisir un Numéro de Téléphone correct !");
-				}
 		}
-				
  }
