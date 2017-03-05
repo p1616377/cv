@@ -4,7 +4,7 @@ function valider()
 
 	if ( n == "" )
      	{
-         alert ( "Veuillez entrer votre Nom !" );
+         window.alert( "Veuillez entrer votre Nom !" );
          valid = false;
 	 }
 	else {valid = true;}
