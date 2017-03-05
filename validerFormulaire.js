@@ -1,10 +1,8 @@
 function valider()
  {
-    var n = document.formulaire.nom.value;
-
-	if ( n == "" )
+	if (document.formulaire.nom.value == "")
      	{
-         window.alert( "Veuillez entrer votre Nom !" );
+         window.alert("Veuillez entrer votre Nom !");
          valid = false;
 	 }
 	else {valid = true;}
