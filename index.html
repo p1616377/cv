@@ -249,7 +249,7 @@ pageTracker._trackPageview();
 <form name="formulaire" action="formulaire" method="post" onsubmit="return validerFormulaire();">
     <div>
         <label for="nom">Nom :</label>
-        <input name="nom" type="text" id="nom" />
+        <input name="nom" type="text" id="nom" onsubmit="return validerFormulaire();" />
     </div>
     <div>
         <label for="courriel">Courriel :</label>
