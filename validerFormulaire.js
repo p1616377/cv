@@ -1,8 +1,8 @@
 function valider()
  {
 	var Nom = $("#nom").val();
-	if ( Nom == "" )
+	if (Nom == "")
      	{
-         window.alert ( "La rubrique réservéé au NOM est vide, Veuillez saisir votre Nom !" );
+         window.alert ("La rubrique réservéé au NOM est vide, Veuillez saisir votre Nom !");
 	}
  } 
